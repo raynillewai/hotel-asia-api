@@ -1,0 +1,19 @@
+{
+    "type": "mysql",
+    "host": "rm-1udzqaa0usj7n5fp7no.mysql.rds.aliyuncs.com",
+    "port": 3306,
+    "username": "superuser",
+    "password": "bobowaix3",
+    "database": "hotel_asia",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+       "src/hotels/entity/*.ts"
+    ],
+    "migrations": [
+       "src/migration/**/*.ts"
+    ],
+    "subscribers": [
+       "src/subscriber/**/*.ts"
+    ]
+ }
